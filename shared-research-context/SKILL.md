@@ -1,6 +1,8 @@
 ---
 name: shared-research-context
 description: 当其他研究类 skill（industry-research、stock-fundamental、research-review）需要加载通用方法论时由 skill 内部引用，不由用户意图直接触发。
+metadata:
+  {"openclaw": {"emoji": "🏛️", "homepage": "https://github.com/tingbo-c/invest-research-skills"}}
 ---
 
 # 共享研究方法论底座

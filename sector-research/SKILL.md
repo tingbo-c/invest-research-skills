@@ -1,6 +1,8 @@
 ﻿---
 name: industry-research
 description: 用户要研究某个行业、做行业分析、写行业研究报告、判断市场规模、竞争格局、产业链或景气度时使用。不包括：个股基本面（用 stock-fundamental）。估值判断需用户明确提出。
+metadata:
+  {"openclaw": {"emoji": "🏭", "homepage": "https://github.com/tingbo-c/invest-research-skills"}}
 ---
 
 # 行业研究

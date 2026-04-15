@@ -1,6 +1,9 @@
 ﻿---
 name: invest-research
-description: 闈㈠悜鎶曠爺浠诲姟鐨勬€诲叆鍙?skill銆傜敤浜庢妸鐢ㄦ埛闂璺敱鍒拌涓氱爺绌躲€佷釜鑲″熀鏈潰銆佸畯瑙傜爺绌舵垨鐮旂┒澶嶆牳锛涘繀瑕佹椂缁勫悎澶氫釜 skill锛屼絾涓嶅湪鎬诲叆鍙ｉ噸澶嶅瓙 skill 宸插畾涔夌殑鏂规硶璁恒€?---
+description: 闈㈠悜鎶曠爺浠诲姟鐨勬€诲叆鍙?skill銆傜敤浜庢妸鐢ㄦ埛闂璺敱鍒拌涓氱爺绌躲€佷釜鑲″熀鏈潰銆佸畯瑙傜爺绌舵垨鐮旂┒澶嶆牳锛涘繀瑕佹椂缁勫悎澶氫釜 skill锛屼絾涓嶅湪鎬诲叆鍙ｉ噸澶嶅瓙 skill 宸插畾涔夌殑鏂规硶璁恒€?
+metadata:
+  {"openclaw": {"emoji": "📊", "homepage": "https://github.com/tingbo-c/invest-research-skills"}}
+---
 
 # 鎶曠爺鎬诲叆鍙?
 鐢ㄤ簬鎺ユ敹鎶曠爺鐩稿叧浠诲姟锛屽苟灏嗕换鍔¤矾鐢卞埌鏈€鍚堥€傜殑瀛?skill銆?

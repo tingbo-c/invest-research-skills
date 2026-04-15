@@ -1,7 +1,9 @@
 ﻿---
 name: stock-fundamental
 description: 用于分析某家具体公司或股票的基本面。触发场景：帮我看看/分析/研究某公司或股票、这家公司基本面怎么样、某股票值不值得买、分析某公司业务模式/核心驱动/竞争力/财务质量/产业链位置。不包括：单独行业研究（用 sector-research）、已有报告复核（用 research-review）。估值与投资结论仅在用户明确要求时输出。
-
+metadata:
+  {"openclaw": {"emoji": "📈", "homepage": "https://github.com/tingbo-c/invest-research-skills"}}
+---
 # 涓偂鍩烘湰闈㈠垎鏋?
 鐢ㄤ簬鐩存帴浜у嚭涓偂鍩烘湰闈㈢爺绌剁粨璁恒€備富绾挎槸鍏堢爺绌跺叕鍙革紝鍐嶇敤璐㈠姟楠岃瘉锛屼笉鍏佽鎶婁釜鑲″垎鏋愬仛鎴愭寚鏍囨墦鍒嗘垨绌烘硾鎶ゅ煄娌虫弿杩般€?
 ## 涓绘枃浠朵笌 references 鐨勫垎宸?
