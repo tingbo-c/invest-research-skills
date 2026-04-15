@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"D:\\\\自建skills\\\\行业研究skill\\\\assets\"\" 2>/dev/null && ls \"D:自建skills行业研究skillreferences\"\")",
+      "Bash(gh api:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebSearch",
+      "WebFetch(domain:zhuanlan.zhihu.com)",
+      "WebFetch(domain:www.lianxh.cn)",
+      "Bash(ls -la \"D:\\\\自建skills\\\\shared-research-context\\\\references\"\" && echo \"---\" && ls -la \"D:自建skills行业研究skillreferences\"\")",
+      "Bash(python export_for_review.py)"
+    ]
+  }
+}

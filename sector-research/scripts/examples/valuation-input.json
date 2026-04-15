@@ -1,0 +1,8 @@
+{
+  "target_period": "2025FY",
+  "metric": "relative_pe",
+  "variables": {
+    "industry_pe": {"value": 42, "unit": "x", "time": "2025FY"},
+    "market_pe": {"value": 18, "unit": "x", "time": "2025FY"}
+  }
+}

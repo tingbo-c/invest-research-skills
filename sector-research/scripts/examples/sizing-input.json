@@ -1,0 +1,25 @@
+{
+  "target_period": "2025FY",
+  "result_unit": "元",
+  "formula": "target_customers * penetration * orders_per_year * price_per_order",
+  "scenarios": {
+    "bear": {
+      "target_customers": {"value": 5000000, "unit": "人", "time": "2025FY"},
+      "penetration": {"value": 0.08, "unit": "ratio", "time": "2025FY"},
+      "orders_per_year": {"value": 4, "unit": "次/年", "time": "2025FY"},
+      "price_per_order": {"value": 300, "unit": "元", "time": "2025FY"}
+    },
+    "base": {
+      "target_customers": {"value": 6000000, "unit": "人", "time": "2025FY"},
+      "penetration": {"value": 0.1, "unit": "ratio", "time": "2025FY"},
+      "orders_per_year": {"value": 5, "unit": "次/年", "time": "2025FY"},
+      "price_per_order": {"value": 320, "unit": "元", "time": "2025FY"}
+    },
+    "bull": {
+      "target_customers": {"value": 7000000, "unit": "人", "time": "2025FY"},
+      "penetration": {"value": 0.12, "unit": "ratio", "time": "2025FY"},
+      "orders_per_year": {"value": 6, "unit": "次/年", "time": "2025FY"},
+      "price_per_order": {"value": 350, "unit": "元", "time": "2025FY"}
+    }
+  }
+}

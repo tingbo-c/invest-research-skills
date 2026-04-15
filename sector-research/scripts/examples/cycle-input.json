@@ -1,0 +1,8 @@
+{
+  "target_period": "2025FY",
+  "metric": "capex_ratio",
+  "variables": {
+    "capex": {"value": 900000000, "unit": "元", "time": "2025FY"},
+    "depreciation_amortization": {"value": 700000000, "unit": "元", "time": "2025FY"}
+  }
+}
