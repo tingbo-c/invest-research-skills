@@ -245,4 +245,4 @@ graph LR
 - 需要在较短时间内形成一份更接近专业研究机构口径的分析材料时
 - 需要把 AI 纳入日常投研流程，而不是只把它当成信息搜索工具时
 
-**适用平台：** Claude / ChatGPT / Gemini，任何支持自定义 skill 的 AI 平台均可使用。
+**适用平台：** Claude / ChatGPT / Gemini/openclaw，任何支持自定义 skill 的 AI 平台均可使用。
