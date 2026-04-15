@@ -261,11 +261,11 @@ metadata:
 - 不能用“存量保有量渗透率”误判周期
 - 新能源车示例：正确口径是“当月新车销量中新能源占比”，不是“全国乘用车保有量中新能源占比”
 
-### 第二点五步：判断是否必须衔接宏观
+### 第二点五步：判断是否必须纳入宏观子分析
 
 在进入行业细分分析前，先判断宏观是否属于当前行业结论的主要驱动项。
 
-出现以下任一情形时，**必须**加载 `../macro-research/SKILL.md` 作为子分析，而不是可选补充：
+出现以下任一情形时，**必须**在当前行业分析中显式加入宏观子分析，而不是可选补充：
 
 - 行业本身是强周期行业：钢铁、煤炭、有色、化工、航运、工程机械、地产链等
 - 需求或盈利对利率、信用扩张、地产销售、财政发力高度敏感
@@ -325,7 +325,7 @@ metadata:
 - 若同时需要估值判断，额外加载 `references/valuation-multiples.md`
 - 若没有官方数据或官方统计严重滞后，额外加载 `references/no-official-data-sizing.md`
 - 若关键数字时间不一致，额外加载 `references/time-consistency.md`
-- 若行业结论明显受周期、利率、信用、汇率、商品价格或政策传导影响，额外加载 `../macro-research/SKILL.md`
+- 若行业结论明显受周期、利率、信用、汇率、商品价格或政策传导影响，额外补入宏观子分析
 - 若行业结论明显受国际局势、全球贸易、海外供需、制裁关税、航线扰动或跨境约束影响，额外加载 `../shared-research-context/references/external-factors.md`
 - 若用于招股书、募资材料、公开披露，额外加载 `references/disclosure-grade-checklist.md`
 - 输出正式结论前，额外加载 `references/analysis-review-checklist.md`

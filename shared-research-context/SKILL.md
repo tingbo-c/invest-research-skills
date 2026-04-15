@@ -16,7 +16,7 @@ metadata:
 | 文件 | 内容 | 被哪些 skill 引用 |
 |---|---|---|
 | `references/research-methodology.md` | DIKW 模型、假设驱动法、认知偏差清单、信息源可信度标准 | industry-research, stock-fundamental |
-| `references/external-factors.md` | PEST 框架、政策信号分类、经济周期传导、Gartner 技术曲线 | industry-research, macro-research |
+| `references/external-factors.md` | PEST 框架、政策信号分类、经济周期传导、Gartner 技术曲线 | industry-research |
 | `references/lifecycle-framework.md` | 渗透率标尺、四阶段框架（导入/成长/成熟/衰退）、关键阈值、阶段与分析工具对应表 | industry-research, stock-fundamental |
 | `references/data-quality-levels.md` | P1-P5 分级与使用规则、数据冲突处理、AI 数据幻觉提醒 | industry-research, stock-fundamental |
 | `references/market-sizing-principles.md` | 双重验证原则、三种测算方法、无公开数据另类路径、常见测算错误 | industry-research |

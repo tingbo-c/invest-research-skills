@@ -1,6 +1,6 @@
 # research-review
 
-研究质量复核工具。对 industry-research、stock-fundamental、macro-research 等技能产出的研究内容做结构化质量审查。
+研究质量复核工具。对 industry-research、stock-fundamental 等技能产出的研究内容做结构化质量审查。
 
 不重新做分析，只审查已有分析的质量、完整性和逻辑一致性。
 
@@ -56,7 +56,6 @@ research-review 是整个技能套件的质量把关层：
 ```
 industry-research  ──┐
 stock-fundamental  ──┤──→  research-review  ──→  最终输出
-macro-research     ──┘
 ```
 
 所有研究类技能的输出都可以经过 research-review 复核后再对外使用。
