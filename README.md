@@ -1,6 +1,6 @@
 # invest-research · AI 投研 Skill 套件
 
-专为 A 股和港股研究设计的 AI 分析框架。不是提示词模板，是把专业分析师的判断逻辑直接内置进 AI 的工作方式里。
+专为分析行业和分析个股的分析框架。不是提示词模板，是把专业分析师的判断逻辑直接内置进 AI 的工作方式里。
 
 ![Platform](https://img.shields.io/badge/平台-Claude%20%7C%20ChatGPT%20%7C%20Gemini-4A90D9)
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-兼容-FF6B35)
