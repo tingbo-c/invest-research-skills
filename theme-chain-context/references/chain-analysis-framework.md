@@ -78,7 +78,8 @@
 - 被错杀（错在哪 + 受益证据 + 数据点）⭐
 
 **调用框架**:每一类的利润截留（谁真赚到钱）用
-[profit-transmission.md](../../stock-fundamental/references/profit-transmission.md)（利润传导/受益类型）分析；
+[profit-attribution.md](../../shared-research-context/references/profit-attribution.md)（rent 7 类截留）分析,
+判断产业利好能不能落到该公司净利上(rent capture %）；
 A股利润池/纵向议价权与 [sector-research](../../sector-research/SKILL.md) 的产业链利润池分析对齐,不重复。
 
 **档位**:

@@ -24,6 +24,10 @@ metadata:
 | `references/pitfalls.md` | 十二大通用陷阱、专家访谈三步处理法 | industry-research, stock-fundamental |
 | `references/time-consistency.md` | 时间口径匹配规则、输出标注要求、常见违规情形 | industry-research, stock-fundamental |
 | `references/scqr-principle.md` | SCQR 汇报顺序、受众对应结构、结论质量要求、输出深度分级 | industry-research, stock-fundamental |
+| `references/research-discipline-and-debiasing.md` | 研究纪律最高纲领、四段式工作流、去偏清单、关键假设表、grounding 纪律、actionable 禁令 | stock-fundamental, theme-chain-context, event-interpretation |
+| `references/cognitive-edge-framework.md` | 信息差/逻辑差/预期差/催化剂四层博弈差、完整性合成判断、禁制造虚假博弈差 | stock-fundamental, theme-chain-context |
+| `references/profit-attribution.md` | rent 7 类截留者、rent capture % 判定、持续性、产业利好 vs 公司利好 | stock-fundamental, theme-chain-context |
+| `references/source-tier-and-snapshot-rules.md` | A股来源→P1-P5 映射、按类型匹配级别、引用格式、快照数据防过时规则、口径标注 | industry-research, stock-fundamental, theme-chain-context, event-interpretation |
 
 ---
 

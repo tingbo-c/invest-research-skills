@@ -70,6 +70,10 @@ metadata:
 
 | 当前任务 | 读取文件 |
 |---|---|
+| 任何带投资判断倾向的分析(最高纲领,背景必读) | `../shared-research-context/references/research-discipline-and-debiasing.md` |
+| 判断与共识的差异在哪(信息差/逻辑差/预期差/催化剂) | `../shared-research-context/references/cognitive-edge-framework.md` |
+| 分析产业链/题材受益者,判断利润归谁(rent 截留) | `../shared-research-context/references/profit-attribution.md` |
+| 标注数据来源等级、防快照数据过时 | `../shared-research-context/references/source-tier-and-snapshot-rules.md` |
 | 判断公司属于哪类业务结构、核心能力来源是什么 | `references/business-model-types.md` |
 | 看财务质量、利润真实性、现金含量、业绩质量甄别 | `references/financial-diagnostics.md` |
 | 横向比较竞争对手、判断相对优势与短板 | `references/competitor-matrix.md` |
