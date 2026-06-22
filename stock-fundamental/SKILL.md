@@ -177,24 +177,28 @@ metadata:
 
 ### 机读输出块(C8/C10,默认附末尾,供深研卡片回填)
 
+stock-fundamental 是深研卡片的**汇总方**:产出整张卡,汇总 financial-diagnostics 的 `financial_quality`、theme-chain 的 `theme`、event-interpretation 的 `event` 子块。**统一结构、枚举取值与填写规则以 [deep-research-card.md](../shared-research-context/references/deep-research-card.md) 为准**,本处只给最小骨架:
+
 ```yaml
-stock_card:
+deep_research_card:
   code: <6位代码>
   name: <名称>
   one_liner: <是什么公司 + 主营收入与利润来源>
-  industry_stage: <生命周期阶段>          # 来自 sector-research
-  core_driver: <当前最关键外部驱动 + 顺风/逆风>
-  quality_grade: 真增长 | 存疑 | 疑粉饰 | 未知   # 来自 financial-diagnostics
-  benefit_type: 直接受益 | 间接受益 | 蹭概念 | 被错杀 | 中性 | 未知  # 来自 theme-chain
-  theme_stage: 早期 | 中期 | 晚期 | 已透支 | 未知                    # 来自 theme-chain
+  industry_stage: 导入期|成长期|成熟期|衰退期|未知        # 来自 sector-research
+  core_driver: {var: <最关键外部驱动>, direction: 顺风|逆风|不明}
+  financial_quality: {quality_grade: 真增长|存疑|疑粉饰|未知, note: <依据>}  # 见 financial-diagnostics
+  theme: {benefit_type: 直接受益|间接受益|蹭概念|被错杀|中性|未知, theme_stage: 早期|中期|晚期|已透支|未知, crowding: 低|中|高|未知}  # 见 theme-chain
+  event: {priced_in: 已透支|部分定价|未定价|无法验证|未知, impact: 增强|削弱|无关|重写|未知}  # 见 event-interpretation,无近期事件可空
   key_risks: [<具体,不写"竞争加剧">]
   failure_conditions: [<可观测信号>]
   track_indicators: [<3-5 个>]
+  why_selected: <为什么入选,呼应海选逻辑>
   conclusion: <一句话,只分析不建议>
-  sources: [{url, date}]
+  sources: [{url, date, tier}]
+  websearch_used: true|false
 ```
 
-机读标签无法判断时填 `未知`,不编造。
+机读标签无法判断时一律填 `未知`,不编造;枚举字段用 canonical 取值,不写自由文本。
 
 ---
 

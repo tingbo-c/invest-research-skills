@@ -28,6 +28,7 @@ metadata:
 | `references/cognitive-edge-framework.md` | 信息差/逻辑差/预期差/催化剂四层博弈差、完整性合成判断、禁制造虚假博弈差 | stock-fundamental, theme-chain-context |
 | `references/profit-attribution.md` | rent 7 类截留者、rent capture % 判定、持续性、产业利好 vs 公司利好 | stock-fundamental, theme-chain-context |
 | `references/source-tier-and-snapshot-rules.md` | A股来源→P1-P5 映射、按类型匹配级别、引用格式、快照数据防过时规则、口径标注 | industry-research, stock-fundamental, theme-chain-context, event-interpretation |
+| `references/deep-research-card.md` | 深研卡片统一输出契约:人读结构 + canonical 机读 schema + 枚举取值,汇总各模块机读块供下游回填 | stock-fundamental, theme-chain-context, event-interpretation |
 
 ---
 
