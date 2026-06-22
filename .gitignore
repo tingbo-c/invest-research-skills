@@ -1,0 +1,11 @@
+# 本地 Claude Code 设置/权限(可能含本地凭据,勿提交)
+.claude/
+
+# 常见密钥/密码/环境文件(防误提交)
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*credentials*
+*secret*
