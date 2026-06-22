@@ -42,6 +42,10 @@ metadata:
 | 结论结构检查 | `shared-research-context/references/scqr-principle.md` |
 | 生命周期判断检查 | `shared-research-context/references/lifecycle-framework.md` |
 | 护城河逻辑检查 | `shared-research-context/references/moat-framework.md` |
+| 产业利好 vs 公司利好(rent 归属)检查 | `shared-research-context/references/profit-attribution.md` |
+| 信息差/逻辑差/预期差是否真实(防虚假博弈差) | `shared-research-context/references/cognitive-edge-framework.md` |
+| 数据来源等级与快照数据标注检查 | `shared-research-context/references/source-tier-and-snapshot-rules.md` |
+| 深研卡片机读字段一致性检查 | `shared-research-context/references/deep-research-card.md` |
 | 完整审查清单 | `references/review-checklist.md` |
 | 输出审查报告 | `assets/review-report-template.md` |
 
@@ -57,7 +61,7 @@ metadata:
 
 ### 第二步：加载审查清单
 
-加载 `references/review-checklist.md`，按研究类型选择对应维度。
+加载 `references/review-checklist.md`，按研究类型选择对应维度：行业研究(七)、个股(八，含 8.8 业绩质量甄别 / 8.9 rent 归属)、题材链与事件解读(九)、深研卡片机读一致性(十)、披露级(十一)。
 
 ### 第三步：逐维度审查
 
