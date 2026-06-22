@@ -195,6 +195,13 @@
 - 是否把"行业景气"直接等同于"公司盈利改善"，而没看 rent capture？
 - 参见 `../shared-research-context/references/profit-attribution.md`
 
+**8.10 估值范式是否按资产类型选对（仅在含估值判断时）？**
+- 是否用 trailing PE 评了周期股/未盈利成长/银行/题材股？（A股 周期股顶部低 PE 是卖点、底部高 PE 是买点）
+- 题材股估值是否结合了 theme_stage 与拥挤度，而非脱离题材阶段谈"远期空间"？
+- 是否照搬美式口径（ROTCE/CET1/Rule40）评 A股 金融/成长股？
+- 是否越界输出了目标价/合理价/具体情景股价（应只给上下行百分比 + 末尾 disclaimer）？
+- 参见 `../shared-research-context/references/valuation-paradigm.md`
+
 ---
 
 ## 九、题材链 / 事件解读专项检查

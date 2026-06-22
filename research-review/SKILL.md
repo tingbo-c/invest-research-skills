@@ -46,6 +46,7 @@ metadata:
 | 信息差/逻辑差/预期差是否真实(防虚假博弈差) | `shared-research-context/references/cognitive-edge-framework.md` |
 | 数据来源等级与快照数据标注检查 | `shared-research-context/references/source-tier-and-snapshot-rules.md` |
 | 深研卡片机读字段一致性检查 | `shared-research-context/references/deep-research-card.md` |
+| 估值范式是否按资产类型选对、有无目标价越界 | `shared-research-context/references/valuation-paradigm.md` |
 | 完整审查清单 | `references/review-checklist.md` |
 | 输出审查报告 | `assets/review-report-template.md` |
 

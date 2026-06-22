@@ -81,6 +81,7 @@ metadata:
 | 公司为资源型或周期性资产,需判断资产类型与周期位置 | `references/cyclical-specifics.md` |
 | 看资本配置、股东友好度与治理红旗 | `references/management-assessment.md` |
 | 用户明确要求筛选、打分或横向排序 | `references/stock-selection-models.md` |
+| 用户明确要求估值判断(按资产类型选估值法) | `../shared-research-context/references/valuation-paradigm.md` |
 | 涉及产业链/题材受益判断(嵌入式) | `../theme-chain-context/SKILL.md` |
 | 判断护城河来源与持续性 | `../shared-research-context/references/moat-framework.md` |
 | 判断行业阶段与分析口径松紧 | `../shared-research-context/references/lifecycle-framework.md` |
