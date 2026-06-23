@@ -217,6 +217,8 @@ financial_quality:
     non_recurring: true | false   # 扣非背离
     roe_divergence: true | false  # ROE 背离
     cashflow_mismatch: true | false  # 现金流不匹配
+  leading_signals:                # 第六层,无则空列表
+    - {type: 订单 | 产能 | 利润率 | 现金流 | 管理层行为, signal: <一句>, lead_quarters: <估计领先季度数>}
   note: <一句话依据>
 ```
 

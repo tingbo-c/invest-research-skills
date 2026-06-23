@@ -30,6 +30,7 @@ metadata:
 | `references/source-tier-and-snapshot-rules.md` | A股来源→P1-P5 映射、按类型匹配级别、引用格式、快照数据防过时规则、口径标注 | industry-research, stock-fundamental, theme-chain-context, event-interpretation |
 | `references/deep-research-card.md` | 深研卡片统一输出契约:人读结构 + canonical 机读 schema + 枚举取值,汇总各模块机读块供下游回填 | stock-fundamental, theme-chain-context, event-interpretation |
 | `references/valuation-paradigm.md` | A股按资产类型选估值法、A股独有维度(历史分位/股息/政策/题材市梦率/解禁减持/AH溢价)、估值输出边界(禁目标价) | stock-fundamental, industry-research |
+| `references/downstream-orchestration.md` | 深研层编排契约:调用顺序、C1 输入、C8 输出、各模块职责、行业复用 | 下游编排方/开发者参考 |
 
 ---
 

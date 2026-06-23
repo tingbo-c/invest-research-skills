@@ -45,6 +45,8 @@ deep_research_card:
   financial_quality:
     quality_grade: 真增长 | 存疑 | 疑粉饰 | 未知
     flags: {low_base: bool, non_recurring: bool, roe_divergence: bool, cashflow_mismatch: bool}
+    leading_signals:   # 第六层领先信号,无则空列表
+      - {type: 订单|产能|利润率|现金流|管理层行为, signal: <一句>, lead_quarters: <估计领先季度数>}
     note: <一句话依据>
 
   # —— 题材与拥挤度(theme-chain, C5) ——
@@ -95,6 +97,7 @@ deep_research_card:
 | crowding | 低 / 中 / 高 / 未知 |
 | priced_in | 已透支 / 部分定价 / 未定价 / 无法验证 / 未知 |
 | impact | 增强 / 削弱 / 无关 / 重写 / 未知 |
+| leading_signals[].type | 订单 / 产能 / 利润率 / 现金流 / 管理层行为 |
 | core_driver.direction | 顺风 / 逆风 / 不明 |
 | sources[].tier | P1 / P2 / P3 / P4 / P5 |
 

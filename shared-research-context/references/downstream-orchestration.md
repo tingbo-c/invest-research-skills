@@ -68,11 +68,13 @@
 | 模块 | 职责 | 产出子块 |
 |---|---|---|
 | `sector-research` | 行业阶段/竞争格局/估值中枢 | `sector_context` / `industry_stage` |
-| `stock-fundamental` | 主干汇总,业务定位,驱动变量 | 整张卡片汇总方 |
-| `financial-diagnostics` | 财务质量甄别 + 领先信号 | `financial_quality` |
+| `stock-fundamental` | 主干汇总,业务定位,驱动变量;汇总各子块成整张卡 | `deep_research_card` 汇总方 |
+| └ `financial-diagnostics`(stock-fundamental 的 C2 reference,非独立模块) | 财务质量甄别 + 领先信号 | `financial_quality` |
 | `theme-chain-context` | 题材链,受益类型,拥挤度 | `theme` |
 | `event-interpretation` | 近期事件,Priced-in 检验 | `event` |
 | `research-review` | 质控,审查以上所有输出 | 不填卡片,负责审查 |
+
+> 6 个模块各有 SKILL.md;`financial-diagnostics` 是 stock-fundamental 在 C2 阶段加载的 reference(`references/financial-diagnostics.md`),不是第 7 个独立模块。
 
 ---
 
