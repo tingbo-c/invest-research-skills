@@ -1,6 +1,6 @@
 # 深研卡片输出契约(统一 schema)
 
-> **用途**:这是下游"深研层"对每只候选要回填的**一张卡**。各模块产出的零散机读块(stock-fundamental 的 stock_card、theme-chain 的 theme_chain、financial-diagnostics 的 financial_quality、event-interpretation 的 event_impact)在此**汇总成统一结构**,供深研层解析、回流量化做回测验证。
+> **用途**:这是下游"深研层"对每只候选要回填的**一张卡**(机读键名 `deep_research_card`)。各模块产出的子块(theme-chain 的 `theme_chain`、financial-diagnostics 的 `financial_quality`、event-interpretation 的 `event_impact`、sector-research 的 `sector_context`)由 stock-fundamental 作为汇总方**并入统一结构**,供深研层解析、回流量化做回测验证。
 > **总原则**:用真实材料 + 出处说话,宁可标"未知",不许编;只分析,不建议。选不选、买不买不在这层。
 
 ---
